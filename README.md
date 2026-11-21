@@ -1,3 +1,13 @@
+# IMPORTANT DISCLOSURE: AI-GENERATED TROUBLESHOOTING AND REPORT
+
+> **Please read before reviewing the technical findings.** I am a **network engineer, not a web developer**, and I have no working knowledge of JavaScript, React, React Hook Form, or browser-based application debugging. **The troubleshooting strategy, Developer Tools commands/code, technical interpretation, and this written report were generated and directed by OpenAI ChatGPT (AI).**
+>
+> My role was to operate my own UDM-SE and browser, execute the steps and commands ChatGPT supplied, and provide the observed outputs. I personally confirmed that the UniFi mobile app could change the WAN SLA, that the web interface initially would not apply changes, and that the web interface successfully saved the WAN SLA change after toggling Automatic Speed Test on and then off.
+>
+> **Please treat this as an AI-assisted diagnostic report, not an independently audited web-development analysis.** The console output and observed workaround are reported as encountered, but ChatGPT's interpretations—including the underlying product defect or how the invalid form value originated—should be independently verified by Ubiquiti engineering. I cannot independently validate the JavaScript analysis or code.
+
+---
+
 # UniFi Network 11.1.104: WAN SLA “Apply Changes” silently blocked by `speedTest.enabled` validation
 
 ## Environment
